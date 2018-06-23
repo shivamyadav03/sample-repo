@@ -1,0 +1,106 @@
+.container{
+    width:500px;
+    height: 500px;
+    position: relative;
+}
+body{
+    height: 700px;
+    width: 700px;
+}
+
+
+.small-box {
+    width: 150px;
+    height: 150px;
+    border: 1px;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -24%;
+    margin-top: 74px;
+    background-color: blue;
+    z-index: 5;
+}
+.small-bo {
+    width: 150px;
+    height: 150px;
+    border: 1px;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -20px;
+    background-color: red;
+    margin-top: 75px;
+    z-index: 4;
+}
+.more {
+    width: 150px;
+    height: 150px;
+    border: 1px;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 75px;
+    background-color: green;
+    z-index: 3;
+}
+
+.fourth {
+    width: 150px;
+    height: 150px;
+    border: 1px;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 38%;
+    background-color: blueviolet;
+    margin-top: 75px;
+    z-index: 2;
+}
+
+.small-box:hover{
+    -webkit-box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    transition:0.5s;
+    background-image: url("https://github.com/aayusharora/motley-carousel/blob/master/assets/a.png?raw=true");
+    background-size: 100%,100%;
+}
+
+.small-bo:hover{
+    -webkit-box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+    z-index: 5;
+    background-image: url("https://raw.githubusercontent.com/aayusharora/motley-carousel/master/assets/b.png");
+    background-size: 100%,100%;
+}
+.more:hover{
+
+    -webkit-box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    transition:0.5s;
+    z-index: 4;
+    background-image: url("https://github.com/aayusharora/motley-carousel/blob/master/assets/c.png?raw=true");
+    background-size: 100%,90%;
+    display: block;
+}
+.fourth:hover{
+    -webkit-box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    box-shadow: 20px 0px 44px 4px rgba(0,0,0,0.75);
+    transition:0.5s;
+    z-index: 3;
+    background-image: url("https://github.com/aayusharora/motley-carousel/blob/master/assets/d.png?raw=true");
+    background-size: 100%,100%;
+
+
+}
+
+
+
+
+
